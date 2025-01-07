@@ -25,6 +25,7 @@ nav{
     color: #FF7500;
 }
 
+
 .href{
     display: flex;
     align-items: center;
@@ -32,7 +33,7 @@ nav{
     gap: 5px;
 }
 
-.menu .btn{
+.menu .btn, .btn1{
     width: 155px;
     height: 39px;
     background: #FF7500;
@@ -73,23 +74,16 @@ nav{
 .burger{
     display: none;
 }
-
-
-
 /* Modal oyna style */
 .modal{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.603);
     inset: 0;
     z-index: 10;
-    /* transition: 500ms; */
-    /* transform: scaleX(-2000px); */
     display: none;
 }
 
 .show{
-    /* transform: scaleX(0px); */
-    /* transition: 500ms; */
     display: block;
 }
 
@@ -98,6 +92,32 @@ nav{
     height: 7200px;
     background-color: #fff;
     padding: 50px;
+}
+
+
+.href1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.orqaga{
+    width: 155px;
+    height: 39px;
+    background: #ff1100;
+    border: none;
+    color: #0d0d0d;
+    border-radius: 4px; 
+}
+
+.modal_ul li{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    color: red;
 }
 
 @media(max-width: 721px){
