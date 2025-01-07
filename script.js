@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     event.preventDefault();
 
     
-
-    
     const formData = {
       firstName: document.getElementById('firstName').value,
       lastName: document.getElementById('lastName').value,

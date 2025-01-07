@@ -75,6 +75,31 @@ nav{
 }
 
 
+
+/* Modal oyna style */
+.modal{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.603);
+    inset: 0;
+    z-index: 10;
+    /* transition: 500ms; */
+    /* transform: scaleX(-2000px); */
+    display: none;
+}
+
+.show{
+    /* transform: scaleX(0px); */
+    /* transition: 500ms; */
+    display: block;
+}
+
+.modal_window{
+    width: 270px;
+    height: 7200px;
+    background-color: #fff;
+    padding: 50px;
+}
+
 @media(max-width: 721px){
     .menu{
        display: none;
