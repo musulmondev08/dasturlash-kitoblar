@@ -31,8 +31,19 @@ justify-content: space-between;
 
 
 
-@media(max-width:100px){
+@media(max-width:401px){
     .footer{
-        width: 722px;
+        width: 400px;
+    }
+
+    .footer_bottom{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
