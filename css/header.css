@@ -70,15 +70,22 @@ nav{
 }
 
 
+.burger{
+    display: none;
+}
+
+
 @media(max-width: 721px){
     .menu{
-        gap: 10px;
+       display: none;
     }
 
-    .header nav{
-        gap: 150px;
-        justify-content: none;
+    .burger{
+        display: block;
+        left: -100px;
     }
+
+
 
     .menu .btn{
         width: 100px;
@@ -89,3 +96,6 @@ nav{
         font-size: 12px;
     }
 }
+
+
+
